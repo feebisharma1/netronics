@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link th:href="@{/css/bootstrap.css}" rel="stylesheet">
+    <link th:href="@{/css/colors.css}" rel="stylesheet">
+
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">Netronics</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -18,11 +21,12 @@
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    Services
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="#">Action</a>
@@ -32,7 +36,7 @@
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
+                <a class="nav-link disabled" href="#">Blog</a>
             </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -41,5 +45,74 @@
         </form>
     </div>
 </nav>
+<div class="jumbotron">
+    <h1 class="display-4">Netronics Tech</h1>
+
+</div>
+<div class="media">
+    <div class="media-left">
+        <a href="#">
+            <img class="media-object" src="https://netronicstech.com/wp-content/uploads/2018/10/nt2-682x1024.jpg" alt="...">
+        </a>
+    </div>
+    <div class="media-body">
+        <h4 class="media-heading">Why Choose Us?</h4>
+        <p>We design wireless networks to build your own wireless circle.
+            We help you to design & implement your secured private network and connect different location
+            branches. <br>
+            Our team successful design and deploy Islington college and Triveni Byapar data center and its
+            network.
+            We deploy Structured cabling, Firewalls, IDS (Intrusion Detection System), IPS (Intrusion Prevention
+            System),<br>
+            Active Directory Services, Mail Systems, VDI (virtual Desktop Infrastructure), Backup Systems and
+            Server Virtualization (server consolidation).
+        </p>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <a href="/w3images/lights.jpg">
+                    <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
+                    <div class="caption">
+                        <p>Lorem ipsum...</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <a href="/w3images/nature.jpg">
+                    <img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
+                    <div class="caption">
+                        <p>Lorem ipsum...</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <a href="/w3images/fjords.jpg">
+                    <img src="/w3images/fjords.jpg" alt="Fjords" style="width:100%">
+                    <div class="caption">
+                        <p>Lorem ipsum...</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+        <div class="container text-center">
+            <small>Copyright &copy; Netronics</small>
+            <h3>Contact Us</h3>
+            <p>Phone No: 9851046792</p>
+
+        </div>
+    </footer>
+</div>
 </body>
 </html>
